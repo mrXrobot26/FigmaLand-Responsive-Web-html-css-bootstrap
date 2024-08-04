@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.hover-blue:hover {
+    color: #007bff !important; /* Bootstrap's default blue */
+  }
+
+  @media (max-width: 991px) {
+
+    .navbar-toggler {
+      order: 3;
+      border: none;
+      padding: 0;
+    }
+    .btn-outline-light {
+      order: 2;
+    }
+
+    .custom-toggler .navbar-toggler-icon {
+      background-image: none;
+      width: auto;
+      height: auto;
+    }
+
+    .custom-toggler img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .z-index-img{
+    position: absolute;
+    right: 84px;
+    bottom: -39px;
+
+  }
+
+
+  .position-absolute {
+    z-index: 0;
+  }
+
+
+  .features{
+    margin-top: 100px;
+  }
+
+  .chat-bot-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .line-chart {
+    max-width: 50%;
+    z-index: 1;
+  }
+  
+  @media (max-width: 991px) {
+    .line-chart {
+      max-width: 70%;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      bottom: auto;
+      right: auto;
+    }
+  }
